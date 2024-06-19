@@ -17,7 +17,11 @@ st.sidebar.write('**당신의 선택**:', your_option)
 
 # 메인 화면 구성
 folder = './data/'
-image_files = ['Vermeer.png', 'Gogh.png', 'Munch.png','ShinYoonbok.png']
+image_files = ['https://github.com/songhannaa/streamlit/blob/main/sidebar/data/Vermeer.png?raw=true',
+                'https://github.com/songhannaa/streamlit/blob/main/sidebar/data/Gogh.png?raw=true',
+                'https://github.com/songhannaa/streamlit/blob/main/sidebar/data/Munch.png?raw=true',
+                'https://github.com/songhannaa/streamlit/blob/main/sidebar/data/ShinYoonbok.png?raw=true']
+                
 selectbox_options_index = selectbox_options.index(your_option)
 
 image_file=image_files[selectbox_options_index]
