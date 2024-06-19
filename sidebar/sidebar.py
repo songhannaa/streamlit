@@ -25,5 +25,5 @@ image_files = ['https://github.com/songhannaa/streamlit/blob/main/sidebar/data/V
 selectbox_options_index = selectbox_options.index(your_option)
 
 image_file=image_files[selectbox_options_index]
-image_local = Image.open(folder + image_file)
+image_local = Image.open(image_file)
 st.image(image_local, caption=your_option)
